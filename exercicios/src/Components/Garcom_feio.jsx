@@ -11,8 +11,8 @@ function calcularSalario(){
     numPrestacoesNum = Number(prompt('Digite o numero de prestações'));
     valorEmprestimoNum = Number(prompt('Digite o valor do emprestimo'));
 
-    let prestacaoMensal = (valorEmprestimoNum / numPrestacoesNum);
-    let limitePrestacao = (salarioNum * 30);
+    let prestacaoMensal = valorEmprestimoNum / numPrestacoesNum;
+    let limitePrestacao = salarioNum * 30;
 
     
 if (prestacaoMensal <= limitePrestacao) {
