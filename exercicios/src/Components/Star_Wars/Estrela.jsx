@@ -28,6 +28,7 @@ const TempoViagem = () => {
     if (tempoSegundos >= 60) {
       return `${Math.floor(tempoSegundos / 60)} minutos`;
     }
+    if(tempoSegundos < 60 )
     return `${Math.floor(tempoSegundos)} segundos`;
   };
 

@@ -49,6 +49,8 @@ setStateRelatorio(infosRelatorio)
   return (
     <div className='garcom-container'>
 
+      <h1>Bora descobrir?</h1>
+
         <label htmlFor="inpSalario">salario</label>
       <input type="text" id='inpSalario'
       

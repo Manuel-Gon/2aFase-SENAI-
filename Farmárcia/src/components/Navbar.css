@@ -1,0 +1,49 @@
+ 
+  .NavBar-container{
+   position: fixed;
+    background-color: #e23e57;
+    align-items: center;
+    position: right;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    
+    }
+ 
+ 
+ 
+ 
+ .button-um{
+
+
+        display: inline-block;
+        padding: .75rem 1.25rem;
+        border-radius: 10rem;
+        color: rgb(153, 144, 144);
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+       
+        
+ }
+
+
+
+
+
+
+ 
+   .body{
+    background-color:#e23e57;
+    height: 1000px;
+    width: auto;
+    align-items: inline;
+    display: flex;
+    position: center;
+
+  }
+ 
